@@ -1,0 +1,23 @@
+[project]
+name = "preperation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "asadaligith", email = "asad2747982@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "openai-agents>=0.3.0",
+]
+
+[project.scripts]
+preperation = "preperation:main"
+simple_agent = "preperation.simple_agent:start"
+handoff_agent = "preperation.handoff_agent:start"
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
