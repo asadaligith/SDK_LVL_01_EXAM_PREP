@@ -16,6 +16,7 @@ dependencies = [
 preperation = "preperation:main"
 simple_agent = "preperation.simple_agent:start"
 handoff_agent = "preperation.handoff_agent:start"
+agent_hooks = "preperation.agent_hooks:start"
 
 
 [build-system]
