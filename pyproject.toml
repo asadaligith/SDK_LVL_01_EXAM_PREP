@@ -18,6 +18,7 @@ simple_agent = "preperation.simple_agent:start"
 handoff_agent = "preperation.handoff_agent:start"
 agent_hooks = "preperation.agent_hooks:start"
 toolpractice =    "preperation.toolpractice:start"
+context =           "preperation.context:start"
 
 
 [build-system]
