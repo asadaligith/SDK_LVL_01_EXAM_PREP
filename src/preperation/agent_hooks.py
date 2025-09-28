@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 import asyncio
 import os
 
-enable_verbose_stdout_logging()
+#enable_verbose_stdout_logging()
 # Load environment variables from .env file
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
